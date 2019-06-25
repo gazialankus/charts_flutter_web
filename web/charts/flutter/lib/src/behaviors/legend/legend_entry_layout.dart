@@ -40,7 +40,7 @@ class SimpleLegendEntryLayout implements LegendEntryLayout {
       TappableLegend legend, bool isHidden) {
     // TODO: Consider allowing scaling the size for the symbol.
     // A custom symbol renderer can ignore this size and use their own.
-    final materialSymbolSize = new Size(12.0, 12.0);
+    final materialSymbolSize = new Size(24.0, 12.0);
 
     final entryColor = legendEntry.color;
     var color = ColorUtil.toDartColor(entryColor);
@@ -56,6 +56,7 @@ class SimpleLegendEntryLayout implements LegendEntryLayout {
           context,
           size: materialSymbolSize,
           color: color,
+          dashPattern: legendEntry.dashPattern,
           enabled: !isHidden,
         ),
         onTapUp: makeTapUpCallback(context, legendEntry, legend));
