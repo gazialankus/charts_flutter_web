@@ -11,3 +11,5 @@ dependencies:
       url: https://github.com/gazialankus/charts_flutter_web
       path: web/charts/flutter
 ```
+
+Also, if you are interested in showing dash patterns in your legend, [here](https://github.com/google/charts/pull/282) I have a PR in upstream. If you want to use it now, try the [legend-dash](https://github.com/gazialankus/charts_flutter_web/tree/legend-dash) branch of this repo. 
