@@ -10,4 +10,7 @@ dependencies:
     git:
       url: https://github.com/gazialankus/charts_flutter_web
       path: web/charts/flutter
+      ref: legend-dash
 ```
+
+This is the branch in which showing dash pattern in legend is fixed. My PR in upstream is [here](https://github.com/google/charts/pull/282). 
