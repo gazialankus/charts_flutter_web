@@ -1,5 +1,5 @@
 import 'dart:math';
-import 'dart:ui';
+import 'package:flutter_web_ui/ui.dart';
 
 class MonotoneX {
   static num _sign(num x) {
