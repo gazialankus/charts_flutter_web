@@ -18,6 +18,7 @@ dependencies:
     git:
       url: https://github.com/gazialankus/charts_flutter_web
       path: web/charts/common
+      ref: legend-dash
   collection: ^1.14.5
   flutter_web: any
   intl: ^0.15.2
