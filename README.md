@@ -1,27 +1,13 @@
-# Flutter samples
+# Charts Library for Flutter Web
 
-[![Build Status](https://travis-ci.org/flutter/samples.svg?branch=master)](https://travis-ci.org/flutter/samples)
+This is the port of the [charts](https://github.com/google/charts) library to flutter_web, which was provided within [flutter_web samples](https://github.com/flutter/samples/tree/master/web/charts). Because of the relative path `../common` in its [pubspec.yaml](https://github.com/flutter/samples/blob/master/web/charts/flutter/pubspec.yaml#L18), it was not usable in other projects a dependency directly through git. 
 
-A collection of open source samples that illustrate best practices for
-[Flutter](https://flutter.io).
+You can use this in your Flutter Web projects as: 
 
-## Index
-
-For a curated list of samples in this repo and elsewhere, see the
-[index](INDEX.md).
-
-## Interested in contributing?
-
-See the [contributor's guide](CONTRIBUTING.md)!
-
-## Questions or issues?
-
-If you have a general question about one of these samples or how to adapt its
-techniques for one of your own apps, try one of these resources:
-
-* [The FlutterDev Google Group](https://groups.google.com/forum/#!forum/flutter-dev)
-* [The Flutter Gitter channel](https://gitter.im/flutter/flutter)
-* [StackOverflow](https://stackoverflow.com/questions/tagged/flutter)
-
-If you run into a bug in one of the samples, please file an issue in the
-[main Flutter repo](https://github.com/flutter/flutter/issues).
+```
+dependencies: 
+  charts_flutter:
+    git:
+      url: https://github.com/gazialankus/charts_flutter_web
+      path: web/charts/flutter
+```
