@@ -57,6 +57,7 @@ abstract class ChartCanvas {
       Rectangle<num> clipBounds,
       Color fill,
       Color stroke,
+      bool smoothLine,
       bool roundEndCaps,
       double strokeWidthPx,
       List<int> dashPattern});
@@ -97,7 +98,8 @@ abstract class ChartCanvas {
       Rectangle<num> clipBounds,
       Color fill,
       Color stroke,
-      double strokeWidthPx});
+      double strokeWidthPx,
+      bool smoothLine});
 
   /// Renders a simple rectangle.
   ///
