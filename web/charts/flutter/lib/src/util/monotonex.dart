@@ -1,5 +1,5 @@
 import 'dart:math';
-import 'package:flutter_web_ui/ui.dart';
+import 'package:flutter_web_ui/ui.dart' hide Point;
 
 class MonotoneX {
   static num _sign(num x) {
